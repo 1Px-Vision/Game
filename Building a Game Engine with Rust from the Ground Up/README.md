@@ -11,3 +11,10 @@ To start with your project, clone this repository to your local machine:
 git clone https://github.com/udacity/intro-to-rust-starter.git
 
 ````
+
+To ensure you are set up correctly, you can run the test C game that comes with this project. You can build and run the test game with:
+
+````
+cd intro-to-rust-starter/starter
+make run-c
+````
