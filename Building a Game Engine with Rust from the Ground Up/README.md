@@ -74,9 +74,13 @@ Example the result on screen
 ````
 
 ## Running Ping Pong
-Run Ping Pong with the following command:
 
+![Project_PingPong](https://github.com/1Px-Vision/Game/blob/main/Building%20a%20Game%20Engine%20with%20Rust%20from%20the%20Ground%20Up/Project_PingPong.jpg)
+
+Run Ping Pong with the following command:
+````
 make run-pingpong
+````
 
 # Included in this repository
 The project introduces the following modified files:
