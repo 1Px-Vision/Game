@@ -72,3 +72,8 @@ Example the result on screen
 16:Sprite { x: 301, y: 424, width: 49, height: 27, r: 58, g: 129, b: 247 }
 17:Sprite { x: 573, y: 470, width: 24, height: 14, r: 62, g: 252, b: 185 }
 ````
+
+## Running Ping Pong
+Run Ping Pong with the following command:
+
+make run-pingpong
