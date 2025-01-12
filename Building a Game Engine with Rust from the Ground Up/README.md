@@ -77,3 +77,6 @@ Example the result on screen
 Run Ping Pong with the following command:
 
 make run-pingpong
+
+# Included in this repository
+The project introduces the following modified files:
