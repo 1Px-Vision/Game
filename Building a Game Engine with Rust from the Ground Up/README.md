@@ -4,3 +4,10 @@ This repository provides a foundation for creating a straightforward yet effecti
 
 ![media](https://github.com/1Px-Vision/Game/blob/main/Building%20a%20Game%20Engine%20with%20Rust%20from%20the%20Ground%20Up/img.png)
 
+Running the Test C Game
+To start with your project, clone this repository to your local machine:
+
+````
+git clone https://github.com/udacity/intro-to-rust-starter.git
+
+````
