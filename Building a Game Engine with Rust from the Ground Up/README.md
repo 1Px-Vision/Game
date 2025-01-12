@@ -49,6 +49,7 @@ Run the videogame with the following command:
 ````
 make run-videogame
 ````
+![Result_Game](https://github.com/1Px-Vision/Game/blob/main/Building%20a%20Game%20Engine%20with%20Rust%20from%20the%20Ground%20Up/Rust_Game.jpg)
 
 Example the result on screen
 ````
