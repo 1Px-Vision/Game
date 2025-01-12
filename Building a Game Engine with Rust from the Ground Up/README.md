@@ -83,4 +83,11 @@ make run-pingpong
 ````
 
 # Included in this repository
-The project introduces the following modified files:
+The project introduces the following modified files (Directory intro-to-rust-starter/starter):
+
+* Project Videogame videogame/src/main.rs
+* Project Pingpong  pingpong/src/main.rs
+* build.rs
+* tests.rs
+* Cargo.lock
+* Cargo.toml
