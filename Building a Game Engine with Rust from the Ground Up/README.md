@@ -5,17 +5,18 @@ This repository provides a foundation for creating a straightforward yet effecti
 Local environment prerequisites
 While this project has no specific dependencies on any system, it was built on a Unix-based machine. So, if you're on Windows, I'd recommend using the Windows Subsystem for Linux (WSL), so all instructions here directly apply to your system.
 
-For this project, you'll need to have Rust installed in your machine. If you haven't installed Rust yet, you can do so with:
+You'll need to have Rust installed in your machine for this project. If you haven't installed Rust yet, you can do so with:
 
 ````
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ````
 
-Also, because we are dealing with C code in this project, you'll need to have a C compiler installed on your machine. You can install the build-essential package, which includes the GNU C Compiler (GCC) and other necessary tools:
+Also, because we are dealing with C code in this project, you'll need to install a C compiler on your machine. You can install the build-essential package, which includes the GNU C Compiler (GCC) and other necessary tools:
 
 ````
 sudo apt update
 sudo apt install build-essential
+sudo apt install libssl-dev pkg-config
 
 ````
 Finally, you'll need to have GLFW installed in your machine. GLFW is a C library that will be the foundation of our game engine. You can install it with:
