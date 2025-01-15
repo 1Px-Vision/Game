@@ -37,7 +37,7 @@ git clone https://github.com/udacity/intro-to-rust-starter.git
 
 ````
 
-To ensure you are set up correctly, you can run the test C game that comes with this project. You can build and run the test game with:
+You can run the test C game with this project to ensure you are set up correctly. You can build and run the test game with:
 
 ````
 cd intro-to-rust-starter/starter
