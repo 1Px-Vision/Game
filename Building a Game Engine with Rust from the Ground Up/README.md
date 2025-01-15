@@ -53,7 +53,7 @@ make run-videogame
 ````
 ![Result_Game](https://github.com/1Px-Vision/Game/blob/main/Building%20a%20Game%20Engine%20with%20Rust%20from%20the%20Ground%20Up/Rust_Game.jpg)
 
-Example the result on screen
+For example the result on the screen
 ````
 1:Sprite { x: 756, y: 429, width: 27, height: 19, r: 174, g: 44, b: 238 }
 2:Sprite { x: 161, y: 57, width: 16, height: 37, r: 20, g: 119, b: 143 }
@@ -84,6 +84,34 @@ For testing, you can use the ````intro-to-rust-starter/starter/tests.rs```` file
 * Handles screen clearing and updates game logic at a fixed interval.
 * Monitors exit conditions, allowing the user to exit the game loop by pressing the Escape key.
 * Utilizes macros to abstract boilerplate code, providing a concise and declarative game loop definition.
+
+2. Function ````test_sprite_rendering````
+* Validates sprite rendering by displaying two sprites in different colors and positions.
+* Clears the screen using ````opengl_game::opengl_ffi::rust_clear_screen()```` to ensure no residual artifacts from previous frames.
+Uses the spawn_sprite! macro to create two sprites:
+- The first sprite is defined by ````d1````, positioned accordingly, and colored red (RGB: 255, 0, 0).
+- The second sprite is defined by ````d2````, positioned accordingly, and colored blue (RGB: 0, 0, 255).
+
+3. Function ````test_screen_clearing````
+* Demonstrates screen-clearing functionality and visual effects in an OpenGL-based game window.
+* Alternates between two visual modes:
+- **Mode 1:** A red rectangle with smaller margins.
+- **Mode 3:** A blue rectangle with larger margins.
+* Transitions occur every 20 frames, showcasing both screen-clearing and sprite-rendering capabilities.
+
+4. Function ````test_key_presses````
+* Demonstrates interactive key press handling using the opengl_game library.
+* Pressing and releasing arrow keys updates the state of colored squares aligned with the respective arrow directions.
+* Visually represents key presses through changes in sprite brightness, providing real-time feedback.
+* Serves as a test of keyboard input handling and an example of interactive rendering in a graphical application.
+
+5. Function ````test_sprite_position_update````
+* Tests sprite position updates within a game loop using the OpenGL FFI (Foreign Function Interface).
+* Displays a red sprite moving diagonally within a 400x300 window.
+* The sprite bounces off the edges, reversing direction upon hitting boundaries.
+* The user can close the test by pressing the Escape key.
+  
+#### Notes on Macro Usage
 
 
 ## Running Ping Pong
