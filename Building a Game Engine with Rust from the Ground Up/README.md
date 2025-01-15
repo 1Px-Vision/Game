@@ -45,6 +45,8 @@ make run-c
 ````
 ## Running the Videogame
 
+The game is in the directory ````intro-to-rust-starter/starter/videogame````. For testing, you can use the ````intro-to-rust-starter/starter/tests.rs```` file.
+
 Run the videogame with the following command:
 
 ````
