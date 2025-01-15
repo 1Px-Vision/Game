@@ -79,7 +79,7 @@ For testing, you can use the ````intro-to-rust-starter/starter/tests.rs```` file
 
 ### Macros and Test Functions in ````tests.rs````
 
-1 Function ````test_simple_game_loop````
+1. Function ````test_simple_game_loop````
 * Initializes a game window using the start_window_and_game_loop! macro with the title "test_simple_game_loop".
 * Handles screen clearing and updates game logic at a fixed interval.
 * Monitors exit conditions, allowing the user to exit the game loop by pressing the Escape key.
