@@ -131,7 +131,7 @@ For testing, you can use the ````intro-to-rust-starter/starter/tests.rs```` file
 
 ## Running Ping Pong
 
-The game is in the directory ````intro-to-rust-starter/starter/videogame````
+The game is in the directory ````intro-to-rust-starter/starter/pingpong````
 
 ![Project_PingPong](https://github.com/1Px-Vision/Game/blob/main/Building%20a%20Game%20Engine%20with%20Rust%20from%20the%20Ground%20Up/Project_PingPong.jpg)
 
