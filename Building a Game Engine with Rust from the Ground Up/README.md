@@ -45,8 +45,7 @@ make run-c
 ````
 ## Running the Videogame
 
-The game is in the directory ````intro-to-rust-starter/starter/videogame````. For testing, you can use the ````intro-to-rust-starter/starter/tests.rs```` file.
-
+The game is in the directory ````intro-to-rust-starter/starter/videogame````.
 Run the videogame with the following command:
 
 ````
@@ -74,6 +73,18 @@ Example the result on screen
 16:Sprite { x: 301, y: 424, width: 49, height: 27, r: 58, g: 129, b: 247 }
 17:Sprite { x: 573, y: 470, width: 24, height: 14, r: 62, g: 252, b: 185 }
 ````
+
+## Testing Videogame
+For testing, you can use the ````intro-to-rust-starter/starter/tests.rs```` file.
+
+### Macros and Test Functions in ````tests.rs````
+
+1 Function ````test_simple_game_loop````
+* Initializes a game window using the start_window_and_game_loop! macro with the title "test_simple_game_loop".
+* Handles screen clearing and updates game logic at a fixed interval.
+* Monitors exit conditions, allowing the user to exit the game loop by pressing the Escape key.
+* Utilizes macros to abstract boilerplate code, providing a concise and declarative game loop definition.
+
 
 ## Running Ping Pong
 
