@@ -106,10 +106,10 @@ For testing, you can use the ````intro-to-rust-starter/starter/tests.rs```` file
   * Serves as a test of keyboard input handling and an example of interactive rendering in a graphical application.
 
 5. Function ````test_sprite_position_update````
-  * Tests sprite position updates within a game loop using the OpenGL FFI (Foreign Function Interface).
-  * Displays a red sprite moving diagonally within a 400x300 window.
-  * The sprite bounces off the edges, reversing direction upon hitting boundaries.
-  * The user can close the test by pressing the Escape key.
+     * Tests sprite position updates within a game loop using the OpenGL FFI (Foreign Function Interface).
+     * Displays a red sprite moving diagonally within a 400x300 window.
+     * The sprite bounces off the edges, reversing direction upon hitting boundaries.
+     * The user can close the test by pressing the Escape key.
   
 #### Notes on Macro Usage
   1. ````start_window_and_game_loop!```` Macro
